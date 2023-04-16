@@ -1,7 +1,7 @@
 // Packages and variables
 const express = require("express"),
 	server = express(),
-	port = 7000;
+	port = 3000;
 
 // Static directory
 server.use("/public", express.static(`${__dirname}/public`));
